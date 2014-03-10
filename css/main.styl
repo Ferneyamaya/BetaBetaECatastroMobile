@@ -1,0 +1,515 @@
+color_fondo_main  = #fff
+color_fondo_verde = #04ae9c
+color_fondo_rojo  = #BD0831
+color_fondo_rojo2 = #D30C35
+color_fondo_encabezado = 50% #000
+color_gris_claro = #E7E0E0
+color_gris_medio = #A5A5A5
+
+
+@font-face{
+    font-family: 'Allerta';
+    src: url('../fonts/Allerta-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanssemibold_italic';
+    src: url('../fonts/OpenSans-SemiboldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-SemiboldItalic-webfont.svg#open_sanssemibold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'iconosCatastro';
+    src:url('../fonts/iconosCatastro.eot?iqi1qz');
+    src:url('../fonts/iconosCatastro.eot?#iefixiqi1qz') format('embedded-opentype'),
+        url('../fonts/iconosCatastro.woff?iqi1qz') format('woff'),
+        url('../fonts/iconosCatastro.ttf?iqi1qz') format('truetype'),
+        url('../fonts/iconosCatastro.svg?iqi1qz#iconosCatastro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'iconosCatastro';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-inicio:before {
+    content: "\e600";
+}
+.icon-lupa:before {
+    content: "\e602";
+}
+.icon-mapa:before {
+    content: "\e604";
+}
+.icon-perfil:before {
+    content: "\e605";
+}
+.icon-certificado:before {
+    content: "\e613";
+}
+.icon-cerrar:before {
+    content: "\ce606";
+}
+.icon-llamar:before {
+    content: "\e623";
+}
+.icon-estrella:before {
+    content: "\ee669";
+}
+.icon-info:before {
+    content: "\e607";
+}
+.icon-cerrar2:before {
+    content: "\e608";
+}
+.icon-compartir:before {
+    content: "\e609";
+}
+.icon-buscardoc:before {
+    content: "\e60a";
+}
+.icon-flecha-izq:before {
+    content: "\e60b";
+}
+.icon-flecha-der:before {
+    content: "\e60c";
+}
+.icon-lupa:before {
+    content: "\e60d";
+}
+.icon-edificio:before {
+    content: "\e601";
+    color: #91D1E2;
+}
+.icon-casa:before {
+    content: "\e603";
+    color: #BEE394;
+}
+.icon-candado:before {
+    content: "\e606";
+}
+.icon-lista:before {
+    content: "\e60e";
+}
+.icon-google-plus:before {
+    content: "\e60f";
+}
+.icon-twitter:before {
+    content: "\e610";
+}
+.icon-facebook:before {
+    content: "\e611";
+}
+.icon-archivo-pdf:before {
+    content: "\e612";
+}
+.icon-descargar:before {
+    content: "\e614";
+}
+.icon-notificacion:before {
+    content: "\e615";
+}
+.icon-campana:before {
+    content: "\e61d";
+}
+.icon-tramites:before {
+    content: "\e626";
+}
+.icon-buscar:before {
+    content: "\e616";
+}
+.icon-flecha-derecha:before {
+    content: "\e617";
+}
+.icon-flecha-izquierda:before {
+    content: "\e618";
+}
+.icon-lista2:before {
+    content: "\e619";
+}
+.icon-lista3:before {
+    content: "\e61a";
+}
+.icon-sobre:before {
+    content: "\e61b";
+}
+.icon-sobre2:before {
+    content: "\e61c";
+}
+.icon-exclamacion:before {
+    content: "\e61e";
+}
+.icon-salir:before {
+    content: "\e620";
+}
+.icon-telefono:before {
+    content: "\e622";
+}
+.icon-comentario:before {
+    content: "\e61f";
+}
+.icon-configuracion:before {
+    content: "\e621";
+}
+.icon-triangulo:before {
+    content: "\e624";
+}
+.icon-marcador_mapa:before {
+    content: "\e625";
+    color: #EFCE8E;
+}
+
+li {    
+    list-style:none;
+}
+
+
+body
+    background: color_fondo_main
+
+    header
+        overflow: hidden
+
+        .header-cabecera-verde
+            background: color_fondo_verde
+            border: 1px solid color_fondo_verde 
+            height: 50px
+            position: relative
+            vertical-align: middle
+
+            .titulo 
+                .header-titulo
+                    color: white
+                    font-family: open_sanslight
+                    font-size: 20px
+                    font-weight: bold
+                    text-align: center
+                    vertical-align: middle
+
+            .botonera
+                position: absolute
+                top: 0.5em
+                right: 10px
+                vertical-align: middle
+
+                #btn-cerrar
+                    color: white
+                    font-size: 2.3em
+                    position: relative
+                    text-decoration: none
+                    vertical-align: middle
+
+                    &:hover
+                        color color_fondo_rojo2
+                        text-shadow: 1px 1px 10px rgba(black, 0.5)
+    
+    .header-cabecera-roja
+        background: gray
+        display: table
+        margin: 10 0 10 0
+
+        ul
+            display: table-row
+            height: 40px
+            margin: 0
+            line-height: 40px
+            list-style: none
+            overflow-x auto
+            padding: 0
+            white-space: nowrap
+            width: 100%
+
+            li 
+                
+            .primero
+                background: color_fondo_rojo
+                color: white
+                display: table-cell;
+                padding: 0.7em 1em
+                width: 100px
+
+
+
+
+                .icon-buscardoc
+                    color: white
+                    font-size: 30px
+                    text-decoration: none
+                    vertical-align: middle
+                    
+                    &:hover
+                        color color_fondo_verde
+                        text-shadow: 1px 1px 10px rgba(black, 0.5)
+
+
+                 
+
+            .segundo
+                background: color_fondo_rojo 
+                display: table-cell;
+                position: relative
+                text-align: center
+                width: 100%   
+
+                a 
+                    color white
+                    font-size: 20px  
+                    position: relative
+                    text-decoration: none
+                    padding: 0.7em 3em 
+
+                    &:hover
+                        background: rgba(black, 0.1)
+                        box-shadow: 2px 2px 10px rgba(black, 0.2)
+
+                    .triangulo
+                        position: absolute
+                        right: 0px
+                        bottom:  -1em
+                        font-family: iconosCatastro
+                        font-size: 15px
+                     
+                        &:after                  
+                            content: "\e624"
+
+
+            .tercero
+                background: color_fondo_rojo2   
+                display: table-cell;  
+                padding: 0.7em 1em
+                width: 100px
+
+                .icon-estrella
+                    font-size: 30px
+                    color: white
+                    text-decoration: none
+                    vertical-align: middle
+
+                    &:hover
+                        color color_fondo_verde
+                        text-shadow: 1px 1px 10px rgba(black, 0.5)
+
+    .area-body
+        background color_fondo_main
+        display table
+        margin 0
+        text-align left
+        width 99%
+
+        ul 
+            
+            margin 0
+            display table-row
+
+            li
+                
+                background white
+                border solid 1px
+                border-color color_fondo_main
+                margin 0.8em 0 0.8em 0
+                padding 1.75em 0 1.75em 0
+                border-radius 0.3em
+                box-shadow 2px 2px 10px rgba(black)                     
+                    
+                .area-lista-info
+                    position relative
+                    verti0cal-align middle
+                    padding 0 0 0 0
+
+                    div
+                        top 30%
+                        bottom 30%
+                        text-align justify
+                        display inline-block
+                        vertical-align middle
+                    
+                    .icono-lista
+                        position relative
+                        width 10%
+                        margin 0.1em 1em 0.1em 0.1em
+                        padding 0.5em
+                        
+                        .icono          
+                            font-size 1.5em                  
+                            border solid 0.125em color_gris_claro
+                            border-radius 2em
+                            padding 0.5em
+
+                    .area-lista-informacion
+                        position relative
+                        width 75%
+
+                        
+                        .Obtener-informacion-predios
+                            display block
+                            color color_gris_medio
+                            font-size 0.9em
+                            font-size 16px
+                            font-weight bolder
+
+                        .mis-predios
+                            font-family Allerta
+                            font-size 20px
+                            font-weight 100
+                            
+                    .seguridad-on
+                        position absolute
+                        width 3%
+                        bottom 40% 
+                        top 40%
+                        margin 0 0 0 0.2em
+                        font-size 1.5em
+
+    .menu_main
+        margin 0 auto
+        display block
+        min-width 320px
+        max-width 600px
+        height 50em
+        background-color rgba(255,255,255,100%)
+        padding 2em
+
+        .par_Home
+            height 30%
+            width 100%
+            
+            div
+                position relative
+                height 100%
+                float left
+                margin 0 0.2em 0.2em 0
+
+            .opcion
+                width 40%
+
+            .opcionDerecha
+                width 57%
+
+            .titulo
+                color white
+                text-shadow 0.25em 0.2em rgba(0,0,0,10%);
+                font-size 1.2em
+                font-weight bolder
+                padding 0.6em 0.3em 0.9em 0.3em
+                background-color rgba(0,0,0,30%)
+                position absolute
+                height 1em
+                top 0
+                left 0
+                border-bottom-right-radius 0.4em
+                box-shadow 0.2em 
+
+            .imagen
+                //background-image url('img/epm.jpg')
+                min-height 100%
+                max-height 100%
+                min-width 100%
+                max-width 100%
+                ///top -2em
+                //left -2em
+                overflow hidden
+                margin 0
+
+
+@media screen and (max-width:568px)
+    body
+        font-size 0.7em                        
+                
+@media screen and (max-width:480px)
+    body
+        font-size 0.65em                  
+
+@media screen and (max-width:320px)
+    body
+        font-size 0.6em
+        header
+            .header-cabecera-verde
+                .titulo
+                    position: relative
+                    .header-titulo
+                        position: absolute
+                        font-size: 1em
+                        top 0.3em
+                        margin-left: 2.5em
+
+
+
+    li
+        min-height 3em
+        font-size 0.4em
+    
+
+
+    
+
+
+
+
+
+
+
+
+                    
+            
+
+
+
+
+
+        
+

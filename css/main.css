@@ -1,0 +1,442 @@
+@font-face {
+  font-family: 'Allerta';
+  src: url("../fonts/Allerta-Regular.ttf") format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("../fonts/OpenSans-Bold-webfont.eot");
+  src: url("../fonts/OpenSans-Bold-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/OpenSans-Bold-webfont.woff") format('woff'), url("../fonts/OpenSans-Bold-webfont.ttf") format('truetype'), url("../fonts/OpenSans-Bold-webfont.svg#open_sansbold") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sanslight';
+  src: url("../fonts/OpenSans-Light-webfont.eot");
+  src: url("../fonts/OpenSans-Light-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/OpenSans-Light-webfont.woff") format('woff'), url("../fonts/OpenSans-Light-webfont.ttf") format('truetype'), url("../fonts/OpenSans-Light-webfont.svg#open_sanslight") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/OpenSans-Regular-webfont.eot");
+  src: url("../fonts/OpenSans-Regular-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/OpenSans-Regular-webfont.woff") format('woff'), url("../fonts/OpenSans-Regular-webfont.ttf") format('truetype'), url("../fonts/OpenSans-Regular-webfont.svg#open_sansregular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sanssemibold_italic';
+  src: url("../fonts/OpenSans-SemiboldItalic-webfont.eot");
+  src: url("../fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/OpenSans-SemiboldItalic-webfont.woff") format('woff'), url("../fonts/OpenSans-SemiboldItalic-webfont.ttf") format('truetype'), url("../fonts/OpenSans-SemiboldItalic-webfont.svg#open_sanssemibold_italic") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'iconosCatastro';
+  src: url("../fonts/iconosCatastro.eot?iqi1qz");
+  src: url("../fonts/iconosCatastro.eot?#iefixiqi1qz") format('embedded-opentype'), url("../fonts/iconosCatastro.woff?iqi1qz") format('woff'), url("../fonts/iconosCatastro.ttf?iqi1qz") format('truetype'), url("../fonts/iconosCatastro.svg?iqi1qz#iconosCatastro") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'iconosCatastro';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+/* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-inicio:before {
+  content: "\e600";
+}
+.icon-lupa:before {
+  content: "\e602";
+}
+.icon-mapa:before {
+  content: "\e604";
+}
+.icon-perfil:before {
+  content: "\e605";
+}
+.icon-certificado:before {
+  content: "\e613";
+}
+.icon-cerrar:before {
+  content: "\ce606";
+}
+.icon-llamar:before {
+  content: "\e623";
+}
+.icon-estrella:before {
+  content: "\ee669";
+}
+.icon-info:before {
+  content: "\e607";
+}
+.icon-cerrar2:before {
+  content: "\e608";
+}
+.icon-compartir:before {
+  content: "\e609";
+}
+.icon-buscardoc:before {
+  content: "\e60a";
+}
+.icon-flecha-izq:before {
+  content: "\e60b";
+}
+.icon-flecha-der:before {
+  content: "\e60c";
+}
+.icon-lupa:before {
+  content: "\e60d";
+}
+.icon-edificio:before {
+  content: "\e601";
+  color: #91d1e2;
+}
+.icon-casa:before {
+  content: "\e603";
+  color: #bee394;
+}
+.icon-candado:before {
+  content: "\e606";
+}
+.icon-lista:before {
+  content: "\e60e";
+}
+.icon-google-plus:before {
+  content: "\e60f";
+}
+.icon-twitter:before {
+  content: "\e610";
+}
+.icon-facebook:before {
+  content: "\e611";
+}
+.icon-archivo-pdf:before {
+  content: "\e612";
+}
+.icon-descargar:before {
+  content: "\e614";
+}
+.icon-notificacion:before {
+  content: "\e615";
+}
+.icon-campana:before {
+  content: "\e61d";
+}
+.icon-tramites:before {
+  content: "\e626";
+}
+.icon-buscar:before {
+  content: "\e616";
+}
+.icon-flecha-derecha:before {
+  content: "\e617";
+}
+.icon-flecha-izquierda:before {
+  content: "\e618";
+}
+.icon-lista2:before {
+  content: "\e619";
+}
+.icon-lista3:before {
+  content: "\e61a";
+}
+.icon-sobre:before {
+  content: "\e61b";
+}
+.icon-sobre2:before {
+  content: "\e61c";
+}
+.icon-exclamacion:before {
+  content: "\e61e";
+}
+.icon-salir:before {
+  content: "\e620";
+}
+.icon-telefono:before {
+  content: "\e622";
+}
+.icon-comentario:before {
+  content: "\e61f";
+}
+.icon-configuracion:before {
+  content: "\e621";
+}
+.icon-triangulo:before {
+  content: "\e624";
+}
+.icon-marcador_mapa:before {
+  content: "\e625";
+  color: #efce8e;
+}
+li {
+  list-style: none;
+}
+body {
+  background: #fff;
+}
+body header {
+  overflow: hidden;
+}
+body header .header-cabecera-verde {
+  background: #04ae9c;
+  border: 1px solid #04ae9c;
+  height: 50px;
+  position: relative;
+  vertical-align: middle;
+}
+body header .header-cabecera-verde .titulo .header-titulo {
+  color: #fff;
+  font-family: open_sanslight;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+body header .header-cabecera-verde .botonera {
+  position: absolute;
+  top: 0.5em;
+  right: 10px;
+  vertical-align: middle;
+}
+body header .header-cabecera-verde .botonera #btn-cerrar {
+  color: #fff;
+  font-size: 2.3em;
+  position: relative;
+  text-decoration: none;
+  vertical-align: middle;
+}
+body header .header-cabecera-verde .botonera #btn-cerrar:hover {
+  color: #d30c35;
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+body .header-cabecera-roja {
+  background: #808080;
+  display: table;
+  margin: 10 0 10 0;
+}
+body .header-cabecera-roja ul {
+  display: table-row;
+  height: 40px;
+  margin: 0;
+  line-height: 40px;
+  list-style: none;
+  overflow-x: auto;
+  padding: 0;
+  white-space: nowrap;
+  width: 100%;
+li
+}
+body .header-cabecera-roja ul .primero {
+  background: #bd0831;
+  color: #fff;
+  display: table-cell;
+  padding: 0.7em 1em;
+  width: 100px;
+}
+body .header-cabecera-roja ul .primero .icon-buscardoc {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+body .header-cabecera-roja ul .primero .icon-buscardoc:hover {
+  color: #04ae9c;
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+body .header-cabecera-roja ul .segundo {
+  background: #bd0831;
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+body .header-cabecera-roja ul .segundo a {
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
+  padding: 0.7em 3em;
+}
+body .header-cabecera-roja ul .segundo a:hover {
+  background: rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+body .header-cabecera-roja ul .segundo a .triangulo {
+  position: absolute;
+  right: 0px;
+  bottom: -1em;
+  font-family: iconosCatastro;
+  font-size: 15px;
+}
+body .header-cabecera-roja ul .segundo a .triangulo:after {
+  content: "\e624";
+}
+body .header-cabecera-roja ul .tercero {
+  background: #d30c35;
+  display: table-cell;
+  padding: 0.7em 1em;
+  width: 100px;
+}
+body .header-cabecera-roja ul .tercero .icon-estrella {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  vertical-align: middle;
+}
+body .header-cabecera-roja ul .tercero .icon-estrella:hover {
+  color: #04ae9c;
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+body .area-body {
+  background: #fff;
+  display: table;
+  margin: 0;
+  text-align: left;
+  width: 99%;
+}
+body .area-body ul {
+  margin: 0;
+  display: table-row;
+}
+body .area-body ul li {
+  background: #fff;
+  border: solid 1px;
+  border-color: #fff;
+  margin: 0.8em 0 0.8em 0;
+  padding: 1.75em 0 1.75em 0;
+  border-radius: 0.3em;
+  box-shadow: 2px 2px 10px #000;
+}
+body .area-body ul li .area-lista-info {
+  position: relative;
+  verti0cal-align: middle;
+  padding: 0 0 0 0;
+}
+body .area-body ul li .area-lista-info div {
+  top: 30%;
+  bottom: 30%;
+  text-align: justify;
+  display: inline-block;
+  vertical-align: middle;
+}
+body .area-body ul li .area-lista-info .icono-lista {
+  position: relative;
+  width: 10%;
+  margin: 0.1em 1em 0.1em 0.1em;
+  padding: 0.5em;
+}
+body .area-body ul li .area-lista-info .icono-lista .icono {
+  font-size: 1.5em;
+  border: solid 0.125em #e7e0e0;
+  border-radius: 2em;
+  padding: 0.5em;
+}
+body .area-body ul li .area-lista-info .area-lista-informacion {
+  position: relative;
+  width: 75%;
+}
+body .area-body ul li .area-lista-info .area-lista-informacion .Obtener-informacion-predios {
+  display: block;
+  color: #a5a5a5;
+  font-size: 0.9em;
+  font-size: 16px;
+  font-weight: bolder;
+}
+body .area-body ul li .area-lista-info .area-lista-informacion .mis-predios {
+  font-family: Allerta;
+  font-size: 20px;
+  font-weight: 100;
+}
+body .area-body ul li .area-lista-info .seguridad-on {
+  position: absolute;
+  width: 3%;
+  bottom: 40%;
+  top: 40%;
+  margin: 0 0 0 0.2em;
+  font-size: 1.5em;
+}
+body .menu_main {
+  margin: 0 auto;
+  display: block;
+  min-width: 320px;
+  max-width: 600px;
+  height: 50em;
+  background-color: #fff;
+  padding: 2em;
+}
+body .menu_main .par_Home {
+  height: 30%;
+  width: 100%;
+}
+body .menu_main .par_Home div {
+  position: relative;
+  height: 100%;
+  float: left;
+  margin: 0 0.2em 0.2em 0;
+}
+body .menu_main .par_Home .opcion {
+  width: 40%;
+}
+body .menu_main .par_Home .opcionDerecha {
+  width: 57%;
+}
+body .menu_main .par_Home .titulo {
+  color: #fff;
+  text-shadow: 0.25em 0.2em rgba(0,0,0,0.1);
+  font-size: 1.2em;
+  font-weight: bolder;
+  padding: 0.6em 0.3em 0.9em 0.3em;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  height: 1em;
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 0.4em;
+  box-shadow: 0.2em;
+}
+body .menu_main .par_Home .imagen {
+  min-height: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+@media screen and (max-width:568px) {
+  body {
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-width:480px) {
+  body {
+    font-size: 0.65em;
+  }
+}
+@media screen and (max-width:320px) {
+  body {
+    font-size: 0.6em;
+  }
+  body header .header-cabecera-verde .titulo {
+    position: relative;
+  }
+  body header .header-cabecera-verde .titulo .header-titulo {
+    position: absolute;
+    font-size: 1em;
+    top: 0.3em;
+    margin-left: 2.5em;
+  }
+  li {
+    min-height: 3em;
+    font-size: 0.4em;
+  }
+}

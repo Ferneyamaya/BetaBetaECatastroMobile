@@ -1,0 +1,148 @@
+@font-face {
+	font-family: 'IconosCatastro';
+	src:url('fonts/IconosCatastro.eot?9dc3v9');
+	src:url('fonts/IconosCatastro.eot?#iefix9dc3v9') format('embedded-opentype'),
+		url('fonts/IconosCatastro.woff?9dc3v9') format('woff'),
+		url('fonts/IconosCatastro.ttf?9dc3v9') format('truetype'),
+		url('fonts/IconosCatastro.svg?9dc3v9#IconosCatastro') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'IconosCatastro';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-inicio:before {
+	content: "\e600";
+}
+.icon-lupa:before {
+	content: "\e602";
+}
+.icon-mapa:before {
+	content: "\e604";
+}
+.icon-perfil:before {
+	content: "\e605";
+}
+.icon-certificado:before {
+	content: "\e613";
+}
+.icon-cerrar:before {
+	content: "\ce606";
+}
+.icon-llamar:before {
+	content: "\e623";
+}
+.icon-estrella:before {
+	content: "\ee669";
+}
+.icon-info:before {
+	content: "\e607";
+}
+.icon-cerrar2:before {
+	content: "\e608";
+}
+.icon-compartir:before {
+	content: "\e609";
+}
+.icon-buscardoc:before {
+	content: "\e60a";
+}
+.icon-flecha-izq:before {
+	content: "\e60b";
+}
+.icon-flecha-der:before {
+	content: "\e60c";
+}
+.icon-lupa<div><br></div>:before {
+	content: "\e60d";
+}
+.icon-edificio:before {
+	content: "\e601";
+}
+.icon-home:before {
+	content: "\e603";
+}
+.icon-candado:before {
+	content: "\e606";
+}
+.icon-lista:before {
+	content: "\e60e";
+}
+.icon-google-plus:before {
+	content: "\e60f";
+}
+.icon-twitter:before {
+	content: "\e610";
+}
+.icon-facebook:before {
+	content: "\e611";
+}
+.icon-archivo-pdf:before {
+	content: "\e612";
+}
+.icon-descargar:before {
+	content: "\e614";
+}
+.icon-notificacion:before {
+	content: "\e615";
+}
+.icon-campana:before {
+	content: "\e61d";
+}
+.icon-tramites:before {
+	content: "\e626";
+}
+.icon-buscar:before {
+	content: "\e616";
+}
+.icon-flecha-derecha:before {
+	content: "\e617";
+}
+.icon-flecha-izquierda:before {
+	content: "\e618";
+}
+.icon-lista2:before {
+	content: "\e619";
+}
+.icon-lista3:before {
+	content: "\e61a";
+}
+.icon-sobre:before {
+	content: "\e61b";
+}
+.icon-sobre2:before {
+	content: "\e61c";
+}
+.icon-exclamacion:before {
+	content: "\e61e";
+}
+.icon-salir:before {
+	content: "\e620";
+}
+.icon-telefono:before {
+	content: "\e622";
+}
+.icon-comentario:before {
+	content: "\e61f";
+}
+.icon-configuracion:before {
+	content: "\e621";
+}
+.icon-triangulo:before {
+	content: "\e624";
+}
+.icon-marcador_mapa:before {
+	content: "\e625";
+}
